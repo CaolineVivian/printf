@@ -1,9 +1,20 @@
 #ifndef PRINT_F
 #define PRINT_F
 
+<<<<<<< HEAD
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
+=======
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdarg.h>
+#include <unistd.h>
+#include <stddef.h>
+#include <limits.h>
+
+
+>>>>>>> 5882b3ca8cd96e41ac283cd087e703efe1f9713f
 
 /**
 * struct convert - defines a structure for symbols and functions
