@@ -1,9 +1,34 @@
 #ifndef PRINT_F
 #define PRINT_F
 
+<<<<<<< HEAD
+#include <unistd.h>
+=======
+<<<<<<< HEAD
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
+=======
+>>>>>>> 5380aa55c25e99bce3015fc5febc2e7136ef008d
+#include <stdlib.h>
+#include <stdarg.h>
+
+<<<<<<< HEAD
+/**
+* struct convert - defines a structure for symbols and functions
+*
+* @sym: The operator
+* @f: The function associated
+*/
+struct convert
+{
+	char *sym;
+	int (*f)(va_list);
+};
+typedef struct convert conver_t;
+
+=======
+>>>>>>> 5882b3ca8cd96e41ac283cd087e703efe1f9713f
 
 /**
 * struct convert - defines a structure for symbols and functions
@@ -18,6 +43,7 @@ struct convert
 };
 typedef struct convert conver_t;
 
+>>>>>>> 5380aa55c25e99bce3015fc5febc2e7136ef008d
 /*Main functions*/
 int parser(const char *format, conver_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
