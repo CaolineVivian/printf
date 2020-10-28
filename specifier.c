@@ -3,7 +3,7 @@
 /**
  * specifier - Prints specifier
  * @argument: list of arguments
- * Return: Specifier
+ * Return: The Specifier
  */
 
 char *specifier(va_list argument)
