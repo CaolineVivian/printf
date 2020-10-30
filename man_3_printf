@@ -1,0 +1,34 @@
+.TH man 3 "29 October 2020" "holberton school" "printf project" "_printf man page"
+.SH NAME
+_printf
+.SH SYNOPSIS
+#include "holberton.h"
+
+#include <stdio.h>
+
+#include <stdarg.h>
+
+.SH DESCRIPTION
+_printf function produces output according to a format..
+
+_printf function prototype:
+
+int _printf(const char *format, ...)
+
+.SS Return value
+_printf returns the total number of characters printed(null byte excluded) if successful.
+If an error occurs _printif returns a negative value.
+
+.SS Format of the format string
+The format specification is introduced by the character %. it is followed by an
+optional precision, optional minimum field width and optional length modifier.
+
+"%%" prints a single "%".
+"%i" prints an integer.
+"%d" prints a decimal.
+"%s" prints a string.
+
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Vivian Anyango, Alang'o Bryan, Emanuel Maimona 
